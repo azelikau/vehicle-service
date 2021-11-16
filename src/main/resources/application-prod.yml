@@ -1,0 +1,4 @@
+spring:
+  config:
+    import:
+      configserver:http://${CONFIG_SERVER_HOST}:8080
